@@ -21,6 +21,7 @@ module.exports = {
           '@views': './src/views',
           '@types': './src/@types',
           '@routes': './src/routes/',
+          '@graphql': './src/graphql/',
         },
       },
     ],

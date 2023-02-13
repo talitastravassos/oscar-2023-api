@@ -21,7 +21,8 @@
       "@views/*": ["./src/views/*"],
       "@config/*": ["./src/config/*"],
       "@types/*": ["./src/@types/*"],
-      "@routes/*": ["./src/routes/*"]
+      "@routes/*": ["./src/routes/*"],
+      "@graphql/*": ["./src/graphql/*"]
     }
   },
   "include": ["src/**/*"]
