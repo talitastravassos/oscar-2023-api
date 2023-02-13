@@ -1,3 +1,4 @@
+import { getCategoriesController } from '@controllers/CategoriesController';
 import * as dotenv from 'dotenv';
 import express from 'express';
 
@@ -9,9 +10,7 @@ dotenv.config();
 
 const port = 3333;
 
-app.get('/', (request, response) => {
-  return response.json({ message: 'Oscar 2023 API' });
-});
+app.get('/', getCategoriesController);
 
 // routes
 app.use('/oscar-2023', routes);

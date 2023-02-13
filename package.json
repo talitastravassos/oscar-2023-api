@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-node-express-app-with-typescript",
+  "name": "oscar-2023-api",
   "version": "1.0.0",
-  "description": "a boilerplate for node-express projects with typescript",
+  "description": "Oscar 2023 API",
   "main": "server.ts",
   "author": "talitastravassos <talitatravassos.tt@gmail.com>",
   "license": "MIT",
