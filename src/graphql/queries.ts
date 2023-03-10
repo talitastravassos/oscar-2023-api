@@ -65,7 +65,7 @@ export const originalSongQuery = gql`
       nominees {
         ... on Song {
           id
-          title
+          name
           movie
           from
         }
